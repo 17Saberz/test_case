@@ -1,7 +1,7 @@
 from alterchar.alterchar_utils import alternatingCharacters
 import unittest
 
-class FunnyStringTest(unittest.TestCase):
+class AlternatingCharactersTest(unittest.TestCase):
     def test_give_BBABAAAABB_is_5(self):
         string = 'BBABAAAABB'
         deletions = alternatingCharacters(string)
